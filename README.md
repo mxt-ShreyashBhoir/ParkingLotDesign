@@ -53,6 +53,10 @@ This Parking Lot Management System handles vehicle entry and exit flows, assigns
 
 Update your `application.properties` for MySQL and table auto-generation:
 
+
+##  Extensions/Improvements to be made
+Add Unit Test cases for other classes and Integration tests
+
 ```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/parking_lot
 spring.datasource.username=root
@@ -61,4 +65,5 @@ spring.jpa.hibernate.ddl-auto=update
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.format_sql=true
+
 
